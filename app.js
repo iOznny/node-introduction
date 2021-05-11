@@ -1,7 +1,7 @@
-let name = 'Demo';
-console.log(name);
+let name_test = 'Demo';
+console.log(name_test);
 
-name = 'Demo2';
-console.log(name);
+name_test = 'Demo2';
+console.log(name_test);
 
-console.log('Hola Mundo desde Noode.');
+console.log('Hola Mundo desde Node.');
