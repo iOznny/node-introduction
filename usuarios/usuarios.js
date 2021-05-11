@@ -1,5 +1,3 @@
-
-
 const getUsuarioSync = ( id ) => {
     const startPoint = new Date().getTime();
     while (new Date().getTime() - startPoint <= 3000 ) {
@@ -13,7 +11,6 @@ const getUsuarioSync = ( id ) => {
         nombre: `Usuario ${ id }`
     }; 
 }
-
 
 const getUsuario = (id, callback ) => {
     const usuario = {
