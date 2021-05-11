@@ -10,4 +10,3 @@ console.log(normal === template);
 
 const html = `<h1>Hola Mundo</h1>`;
 console.log(html);
-
