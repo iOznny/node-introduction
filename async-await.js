@@ -40,3 +40,12 @@ const getSalary = (id) => {
         (salary) ? resolve(salary) : reject(`No existe un salario con el id: `, id);
     });
 }
+
+// Async y Await.
+
+const getInfoUser = async() => {
+    return 'Hola Mundo';
+}
+
+getInfoUser().then(msg => console.log(msg));
+

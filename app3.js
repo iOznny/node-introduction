@@ -2,6 +2,7 @@ console.log('Inicio');
 
 //Callback: Es una función que se manda como
 // argumento dentro de otra función.
+
 setTimeout(() => {
     console.log('Primer timeout');
 }, 3000);
