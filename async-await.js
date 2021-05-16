@@ -40,7 +40,6 @@ const getSalary = (id) => {
 }
 
 // Async y Await.
-
 const getInfoUser = async(id) => {
     try {
         const employe = await getEmploye(id);
@@ -57,4 +56,3 @@ const id = 10;
 getInfoUser(id)
     .then(msg => console.log(msg))
     .catch(err => console.log(err));
-
